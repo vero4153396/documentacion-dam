@@ -1,0 +1,66 @@
+docs_dir: docs
+
+# Project information
+site_name: Curso_ITB
+site_url: http://localhost:9099
+site_description: Documentacióm Curso ITB Julio 2024 Documentación
+site_author: IsardVDI
+
+# Repository
+repo_url: https://gitlab.com/isard/cursoitb
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2024 <a href="http://www.isardvdi.com">IsardVDI</a>.
+
+# Documentation and theme
+theme:
+  name: 'material'
+  logo: 'images/isard_marca_RGB_rectangular.png'
+  features:
+    - toc.follow
+
+# Options
+extra:
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - awesome-pages
+  - mermaid2
+  - glightbox
+  - i18n:
+      languages:
+#        ca: "Català"
+        es: "Castellano"
+      default_language: 'es'
+
+
+# TOC
+# nav:
+# - index.md
+# - recursos.md
+# - Prácticas:
+#   - practicas/mikrotik.md
