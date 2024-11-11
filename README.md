@@ -1,6 +1,6 @@
 # Documentación para alumnos de DAM
 
-Disponible para navegar en: [](https://dam-profesor.github.io/documentacion-dam/)
+Disponible para navegar en: [https://dam-profesor.github.io/documentacion-dam](https://dam-profesor.github.io/documentacion-dam/)
 
 ## Create local mkdocs
 
