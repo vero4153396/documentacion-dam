@@ -1,29 +1,21 @@
-# Documentación del curso para ITB
+# Documentación para alumnos de DAM
 
-Disponible para navegar en: https://isard.gitlab.io/cursoitb
+Disponible para navegar en: xxx
 
 ## Create local mkdocs
 
-Install mkdocs modules with virtualenv:
+Debes tener instalado python 3 para poder ejecutar MKDOCS
 
 ```bash
-# install virtualenv in debian 12
-sudo apt install python3-virtualenv
+# En la misma carpeta que el proyecto instalar mkdocs
+pip install mkdocs
 
-# create venv
-cd path_to_local_repo_sysadmin-docs
-virtualenv venv
+# Instalar los módulos de mkdocs necesarios para esta documentación
+pip install -r requirements.txt
 
-# activate venv
-source venv/bin/activate
-
-# install modules with requirements.txt
-python3 -m pip install -r requirements.txt
-
-```
-
-Create mkdocs and run local server:
-```bash
+# Generar el código HTML de la documentación
 python -m mkdocs build
+
+# Ejecutar el servidor de modo local para ver la documentación
 python -m mkdocs serve -a 127.0.0.1:9099
 ```

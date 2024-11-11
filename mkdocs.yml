@@ -1,22 +1,18 @@
 docs_dir: docs
 
 # Project information
-site_name: Curso_ITB
+site_name: Documentación DAM
 site_url: http://localhost:9099
-site_description: Documentacióm Curso ITB Julio 2024 Documentación
-site_author: IsardVDI
-
-# Repository
-repo_url: https://gitlab.com/isard/cursoitb
-edit_uri: edit/main/docs/
+site_description: Documentacióm para el módulo de diseño de interfaces del ciclo formativo DAM
+site_author: CIFP Carlos III
 
 # Copyright
-copyright: Copyright &copy; 2024 <a href="http://www.isardvdi.com">IsardVDI</a>.
+copyright: Copyright &copy; 2024 <a href="https://cifpcarlos3.es/es">CIFPP Carlos III</a>.
 
 # Documentation and theme
 theme:
   name: 'material'
-  logo: 'images/isard_marca_RGB_rectangular.png'
+  logo: 'images/logo-blanco.svg'
   features:
     - toc.follow
 
@@ -53,14 +49,8 @@ plugins:
   - glightbox
   - i18n:
       languages:
-#        ca: "Català"
         es: "Castellano"
       default_language: 'es'
 
 
-# TOC
-# nav:
-# - index.md
-# - recursos.md
-# - Prácticas:
-#   - practicas/mikrotik.md
+

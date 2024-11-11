@@ -1,8 +1,7 @@
-# Curso Virtualización de Escritorios con IsardVDI
+# Documentación para Desarrollo de Interfaces 
 
-Curso semana 1-5 Julio realizado en el CIFO la Violeta de Barcelona
+Documentacióm para el módulo de diseño de interfaces del ciclo formativo formativo de grado superior 
+en desarollo de aplicaciones multiplataforma del CIFP Carlos III (Cartagena)
+<center>![](./images/logo-c3.png)</center>
 
-![](./images/itb.png)
 
-
-![](./images/isard_marca_RGB_rectangular.png)
