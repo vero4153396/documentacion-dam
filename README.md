@@ -1,6 +1,6 @@
 # Documentación para alumnos de DAM
 
-Disponible para navegar en: xxx
+Disponible para navegar en: [](https://dam-profesor.github.io/documentacion-dam/)
 
 ## Create local mkdocs
 
@@ -18,4 +18,7 @@ python -m mkdocs build
 
 # Ejecutar el servidor de modo local para ver la documentación
 python -m mkdocs serve -a 127.0.0.1:9099
+
+# Para subir los ficheros a github pages 
+python -m mkdocs gh-deploy
 ```
