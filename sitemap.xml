@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>http://localhost:9099/</loc>
+         <lastmod>2024-11-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:9099/Guia%20de%20documentos%20Mardown/1-introduccion/</loc>
+         <lastmod>2024-11-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:9099/Guia%20de%20documentos%20Mardown/2-sintaxis/</loc>
+         <lastmod>2024-11-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://localhost:9099/Uso%20MKdocs/1-instalarMKdocs/</loc>
+         <lastmod>2024-11-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
